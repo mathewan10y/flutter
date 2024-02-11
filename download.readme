@@ -1,0 +1,6 @@
+flutter doctor -- shows problems with flutter
+cd desktop -- moves to desktop as current directory
+dart create hello_world -- creates a  flutter folder named hello_world 
+cd hello_world -- enters into the newly created directory hello_world
+code . -- opens the directory via visual studio code
+dart run -- runs the dart program
