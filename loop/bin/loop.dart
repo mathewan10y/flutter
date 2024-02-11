@@ -37,12 +37,10 @@ array operations = list.contains, list.length, list.add(),list.removeAt()
 
   Set<int> set1 = {
     11,
-    11,
     23,
     21,
     12,
     1,
-    23
   }; // doest display repeated elements
   print(set1);
 
