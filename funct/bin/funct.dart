@@ -26,5 +26,19 @@ void main() {
 
     Future<void> sumfutr(int a , int b) async{     ---syntax
     await Future.delayed(Duration(second:3));}    --- for creating delay
+
+
+
+    Future<void> su() async{   
+      await sumfutr(55,77);
+      print('in sum future);   --- waits till smfutr() is completed and then prints the 'in sum future' statement
+
+      await can be only used in a future function
+      main funtion can also be written as a future function-
+
+      Future<void> main() async{
+        await sum();
+      }
+    }
     */
 }
