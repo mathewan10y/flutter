@@ -30,6 +30,7 @@ void main() {
   human.sayhello();
   human.sayname();
   final animal = Animal();
+  animal.sayhello();
 }
 
 class Person {
